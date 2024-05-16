@@ -1,0 +1,78 @@
+Day 1 
+Installation
+    npm create vite@latest
+
+Treat Tag as a data
+    means we can store tag inside variable
+    we can return tag 
+    
+console
+    console will appear in devloper pannel
+
+What will be shown inside browser?
+    anythings which is written inside the return statement are printed on the browser
+
+Wrapper 
+    Function must return only one wrapper
+
+``
+    use ${} inside `` to call a variable
+    use ${} inside `` to perform js operation (+, -, *, /, or variable call or function call) 
+
+In react
+    use {} inside return statement to call a variable
+    we cannot define variable inside {}
+    we cannot use (directly) if, else, for, while, do-while inside {}
+    but we can use map, filter
+
+Day 2
+    array practice, map, filter, reduce
+
+Day 3 
+    set in javascript 
+    the set item must be of primitive type(null, undefined, string, boolean, number)
+    Components
+        Make components
+        Call components
+        Pass value inside component
+        Pass Props other than string
+
+    Component :
+        it is a function whose first letter is capital and is called like a tag
+        <App/>
+    Make Components
+         Info (it must display name address)    
+         College (name, address, affilation)
+
+    props 
+        variables which are passed in component
+        always use {} to take props
+        if props is other than string use {} curly braces
+
+Day 4 
+    Behavior of data inside browser 
+        boolean are not display in browser
+        array are placed one by one
+        object are not displayed in browser (Error: Object are not valid as React Child)
+    
+    Ternary operators
+        the difference between if-else and ternary operator is:
+            ternary operator returns at least one value
+        
+Day 5
+    Event (onClick, onMouseHover)
+    Input (focus, blur, onChange)
+    Button Click
+    Making Variable in React
+        Using useState
+            component will be re-rendered if state variable is changed
+
+    Rendering 
+        When does component will render 
+            when state variable will change
+        What happen when component gets render
+            all content of component in browser will removed then the content will print again
+
+    Increment and Decrement Counter
+    Why useState to make variable in React
+    Rendering Behavior of useState
