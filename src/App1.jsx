@@ -1,5 +1,6 @@
 import React from "react";
-import LearnUseState2 from "./roughComponent/learnUseState/LearnUseState2";
+import "./global.css";
+import LearnReactFragment from "./roughComponent/LearnReactFragment";
 
 const App1 = () => {
   return (
@@ -21,7 +22,12 @@ const App1 = () => {
       /> */}
       {/* <ButtonClick /> */}
       {/* <LearnUseState1 /> */}
-      <LearnUseState2 />
+      {/* <LearnUseState2 /> */}
+      {/* <LearnCss /> */}
+      {/* <ShowAndHide1 /> */}
+      {/* <IncrementByChoice /> */}
+      {/* <HandleImage /> */}
+      <LearnReactFragment />
     </div>
   );
 };

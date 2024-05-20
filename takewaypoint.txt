@@ -76,3 +76,24 @@ Day 5
     Increment and Decrement Counter
     Why useState to make variable in React
     Rendering Behavior of useState
+
+Day 6
+    Make a component named IncrementByChoice
+    Make a variable count using useState initialized with 0
+    Make a button IncrementBy2 => it must increase the count by 2
+    Make a button IncrementBy100 => it must increase the count by 100
+    Make a button IncrementBy 1000 => it must increase the count by 1000
+    NOTE for all button there must be one handleClick( this can be done by using function that return another function concept)
+
+    Make a component HandleImage
+    image must always be inside public folder
+    . in src of img tag always point to the public folder
+
+    Toggle (hide and show)
+        ! add before the state that you want to toggle
+
+    React Fragment
+
+    useRef
+
+
