@@ -1,7 +1,7 @@
 import React from "react";
 
 const LearnReactFragment = () => {
-  return <div>LearnReactFragment</div>;
+  return <>LearnReactFragment</>;
 };
 
 export default LearnReactFragment;

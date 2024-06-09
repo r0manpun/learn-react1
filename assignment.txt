@@ -1,0 +1,37 @@
+FORMIK:
+ Installation > npm i formik
+ to manage state in a form
+
+	Syntax: 
+	 return(
+		<Formik>
+	 		{(formik)=>{
+			  return(
+				<Field>
+					{(value, touch, error)=>{
+						<div>
+                			<label htmlFor="">
+                			<input
+                        		id=""
+                        		type=""
+                        		value={firstname}
+                        		onChange={(e) => setFirstName(e.target.value)}
+                    		></input>
+               				</label>
+            			</div>
+					}}
+				</Field>)
+			}}	
+	 	</Formik>)
+	
+
+YUP
+ Installation > npm i yup
+
+
+UseContext
+
+
+
+PropDrilling
+  

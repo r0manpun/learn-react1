@@ -92,8 +92,40 @@ Day 6
     Toggle (hide and show)
         ! add before the state that you want to toggle
 
-    React Fragment
+    React Fragment <></>
+        use react fragment as wrapper
+        Why react fragment? 
+            it does not support any props or properties
+        if we need to add style in wrapper use div instead of react fragment    
 
     useRef
+        it is used to control other elements
 
 
+
+
+
+NETWORK PANEL in browser tab 
+    Imp: 
+        Header 
+            url
+            method
+            status code
+
+        Payload
+            data sent by frontend
+
+        Preview
+            data sent by backend
+
+
+Day 10
+Edit 
+    change url to localhost:5173/products/${params.id}
+    make component for that url
+    make form
+    populate the form
+    hit api on update
+
+
+Diff
